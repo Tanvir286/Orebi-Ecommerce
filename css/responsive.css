@@ -1,0 +1,676 @@
+@media (min-width:320px) and (max-width:666px){
+
+    .container{
+    padding: 0 10px;
+    width: 100%;
+    box-sizing: border-box;
+    }
+
+    nav{
+        position: relative;
+    }
+     
+    nav .navber-one{
+        padding: 10px 0;
+    }
+   
+  
+
+    nav .navber-one .flexbox{
+        flex-direction: column;
+    }
+
+    nav .logo{
+        width: 100%;
+    }
+
+    nav input:checked + .menu-box{
+        height: 100px;
+        opacity: 1;
+        visibility: visible;
+    }
+
+    nav .menu-box{
+        width: 100%;
+        justify-content: flex-start;
+        position: absolute;
+        top: 42px;
+        background: #f0f0f0;
+        left: 0;
+        padding: 10px;
+        box-sizing: border-box;
+        z-index: 1;
+        height: 0;
+        opacity: 0;
+        transition: .4s;
+        visibility: hidden;
+    }
+
+    nav .false{
+        display: none;
+    }
+
+    nav label {
+        display: block;
+        position: absolute;
+        top: 10px;
+        right: 11px;
+        background: transparent;
+        border: 0;
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+    nav .navber-two .before p{     
+        display: none;
+    }
+
+    .navber-two .category-bar{
+        width: 10%;
+        padding-left: 0;
+    }
+
+    .navber-two .category-bar .before::before {      
+        top: -7px;   
+    }
+
+    .navber-two .category-bar .before::after{        
+     top: 4px;
+    }
+
+    .navber-two .search-bar{
+        width: 70%;
+    }
+
+    .navber-two .search-box{
+        width: auto;
+    }
+
+    .navber-two .search-box input{
+        width: 100%;
+    }
+
+    .navber-two .icon-bar{
+        width: 20%;
+        column-gap: 10px;
+    }
+
+    
+    #banner{
+        background: #f0f0;
+        padding: 50px 20px;
+    }
+
+    #banner .left .number p {       
+        top: 16%;       
+    }
+
+    #banner .left {
+        padding-left: 35px;
+        width: 100%;   
+}  
+
+    #banner .right{
+        width: 0;
+        display: none;
+    }
+
+    #banner .left p span{
+        margin-top: 0;
+    }
+
+    .banner-bottom .container{
+        column-gap: 20px;
+    }
+    .banner-bottom .container .item{
+        column-gap: 18px;
+    }
+
+    .banner-bottom{
+        margin-bottom: 20px;
+    }
+
+    #sale .flexbox{
+        column-gap: 0;
+        flex-direction: column;
+    }
+
+    #sale .left{
+        width: 100%;
+        height: 500px;
+        margin-bottom: 30px;
+    }
+    #sale .right{
+        width: 100%;
+        height: auto;
+    }
+    #arrivals{
+        margin-bottom: 28px;
+    }
+
+    #arrivals .arrivalsitems {
+        flex-direction: column;
+        column-gap: 20px;
+    }
+    #arrivals .arrivalsitems .item{
+        width: 100%;
+        margin-bottom: 25px;
+       
+    }
+
+    #time {
+        margin-top: 30px;
+        margin-bottom: 28px;
+    }
+
+    #time .right h2 {
+        font-size: 30px;
+       
+    }
+    #time .timeitems{
+        
+        padding-left: 17px;
+    }
+
+    #time .right p{
+        
+        width:auto;
+    }
+
+    #offer {
+        margin-bottom: 40px;
+    }
+
+    #offer .item{
+        margin-bottom: 40px;
+    }
+
+    #offer .offeritem{
+        flex-direction: column;
+       
+    }
+   
+    #offer .offeritem .item{
+        width: 100%;
+    }
+
+    footer .footer-deatils{
+        flex-wrap: wrap;
+    }
+    
+    .error h2 {
+        font-size: 60px;
+        width: 100%;
+    }
+
+    .error p{
+        font-size: 11px;
+        width: 100%;
+       
+    }
+
+    #aboutimg .img{
+        flex-direction: column;
+        column-gap: 40px;
+    }
+
+    #aboutimg .img .left{
+        
+        width: 100%;
+        height: 573px;   
+        margin-bottom: 30px;     
+    }
+    #aboutimg .img .right{
+       
+        width: 100%;
+        height: 573px;        
+    }
+   
+    #aboutimg .bottomtext p {
+        font-size: 22px;
+    }
+
+    #aboutimg .story {
+       
+        column-gap: 40px;
+        flex-direction: column;
+    }
+
+    #aboutimg .story .item {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    nav .navber-one .logo .logo-one{
+        padding-left: 0;
+    }
+    .shoping{
+        flex-direction: column;
+        position: relative;
+    }
+
+    #main .zio{
+        visibility: visible;
+    }
+
+    #main .sideber{
+        width: 100%;
+        position: absolute;
+        top: 23px;
+        left: -103%;
+        z-index: 1;
+        background: #f0f0f0;
+        transition: 0.4s;
+    }
+
+
+    .shoping input:checked + .sideber{
+        left:0 !important;
+       }
+
+    #main{
+        margin-top: 40px;
+    }
+
+    #main .listed{
+        width: 100%;
+    }
+
+    #main .listed .listed-one{
+        flex-direction: column;
+    }
+
+    #main .listed .listed-one .right{
+       
+        width: 100%;
+        flex-direction: column;
+    }
+
+    #main .listed .listed-one .right .show ul {
+        
+        width: 241px;
+        margin-left: 14px;
+        margin-top: 10px;
+    }
+
+     .listed .productitems  .item{
+        width: 100%;
+        /* height: 465px; */
+       
+    } 
+
+    .listed .productitems {
+        
+        flex-direction: column;
+        
+        
+    }
+    .listed .productitems .item {
+        width: 100%;
+        margin-bottom: 30px;
+        column-gap: 30px;
+ 
+    }
+
+    #cart .second-row .item .flexbox{
+        flex-direction: column;
+        align-items: start;
+    }
+
+    #cart .second-row .item{
+        width: 100%;
+    }
+
+    #cart .second-row .item ul{
+        width: 89px;
+    }
+
+    #cart .second-row .item h4{
+        font-size: 15px;
+    }
+
+    #cart .second-row .item img{
+        margin-left: 0;
+    }
+
+    #cart .third-row ul{
+        width: 150px;      
+    }
+
+    #cart .carttotals .left{
+        
+        display: none;
+    }
+
+    #cart .carttotals .right{
+        
+        width: 100%;
+    }
+     .map{
+        display: none;
+     }
+
+
+     .title p {
+        width: 336px;    
+        font-size: 19px;
+        
+    }
+
+    .return-cus  form .flexbox{
+       flex-direction: column;
+    }
+
+    .pass form .flexbox{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .pass  form input{
+        width: 100%;
+    }
+
+    .return-cus  form input {
+    
+        width: 100%;
+      
+    }
+
+    .cus p {
+        font-size: 19px;       
+        width: 100%;
+        
+    }
+
+
+    #account .flexbox .sideber{
+        width: 100%;
+    }
+
+    .return-cus form h2 {
+        font-size: 31px;
+    }
+
+    .cus .flexbox{
+        flex-direction: column ;
+    }
+
+    .cus  form input {
+       
+        width:100%;
+       
+    
+    }
+    footer .footer-deatils{
+       
+        padding-left: 0;
+       
+    }
+    .title {
+        margin-top: 29px;
+       
+    }
+    .title ul{
+        
+        margin-bottom: 30px;
+    }
+
+    .cus {
+        padding-bottom: 40px;
+    }
+    .addressform  form input {
+       
+        width: 100%;
+       
+    }
+
+}
+
+
+
+
+
+
+@media (min-width:667px) and (max-width:1500px){
+
+    .container{
+        padding: 0 10px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .addressform  form input {
+       
+        width: 100%;
+       
+    }
+
+    .return-cus form h2 {
+        font-size: 31px;
+    }
+
+    .cus .flexbox{
+        flex-direction: column ;
+    }
+
+    .cus  form input {
+       
+        width:100%;
+       
+    
+    }
+    .return-cus  form .flexbox{
+        flex-direction: column;
+     }
+ 
+     .pass form .flexbox{
+         flex-direction: column;
+         width: 100%;
+     }
+ 
+     .pass  form input{
+         width: 100%;
+     }
+ 
+     .return-cus  form input {
+     
+         width: 100%;
+       
+     }
+ 
+     .cus p {
+         font-size: 19px;       
+         width: 100%;
+         
+     }
+ 
+ 
+     #account .flexbox .sideber{
+         width: 100%;
+     }
+ 
+     .return-cus form h2 {
+         font-size: 31px;
+     }
+ 
+     .cus .flexbox{
+         flex-direction: column ;
+     }
+ 
+     .cus  form input {
+        
+         width:100%;
+        
+     
+     }
+    .title ul{
+        
+        margin-bottom: 30px;
+    }
+    .title {
+        margin-top: 29px;
+       
+    }
+   
+    .cus {
+        padding-bottom: 40px;
+    }
+    nav .false{
+        display: none;
+    }
+ 
+
+    nav .item{
+        width: 100%;
+        justify-content: flex-end;
+    }
+
+    nav .navber-two .before p{     
+        display: none;
+    }
+
+    .navber-two .category-bar{
+        width: 10%;
+        padding-left: 0;
+    }
+
+    .navber-two .category-bar .before::before {      
+        top: -7px;   
+    }
+
+    .navber-two .category-bar .before::after{        
+     top: 4px;
+    }
+
+    .navber-two .search-bar{
+        width: 70%;
+    }
+
+    .navber-two .search-box{
+        width: auto;
+    }
+
+    .navber-two .search-box input{
+        width: 100%;
+    }
+
+    .navber-two .icon-bar{
+        width: 20%;
+        column-gap: 10px;
+    }
+
+
+    #banner{        
+        padding: 110px 16px;
+    }
+
+    #time {
+        margin-top: 30px;
+        margin-bottom: 28px;
+    }
+
+    #banner .left .number p {
+        font-size: 18px;
+        top: 22%;
+       
+    }
+    #arrivals{
+   
+        margin-bottom: 28px;
+    }
+    
+    #arrivals .arrivalsitems .item:hover .img-box .inner-items{
+        visibility: visible;
+        opacity: 0;
+    }
+   
+    footer .footer-deatils{
+        
+        justify-content: space-between;
+       
+    }
+
+    #aboutimg .story .item {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .shoping{
+        flex-direction: column;
+        position: relative;
+    }
+
+    nav .navber-one .logo .logo-one{
+        padding-left: 0;
+    }
+
+    #main .zio{
+        visibility: visible;
+    }
+
+    #main .sideber{
+        width: 100%;
+        position: absolute;
+        top: 23px;
+        left: -103%;
+        z-index: 1;
+        background: #f0f0f0;
+        transition: 0.4s;
+    }
+
+
+    .shoping input:checked + .sideber{
+        left:0 !important;
+       }
+
+    #main .product{
+        width: 100%;
+    }
+
+    #main .product .filter{
+        flex-direction: column;
+    }
+
+    #main .product .filter .right{
+       
+        width: 100%;
+        flex-direction: column;
+    }
+
+    #main .product .filter .right .show ul {
+        
+        width: 241px;
+        margin-left: 14px;
+        margin-top: 10px;
+    }
+
+    #arrivals .arrivalsitems .item h5 {
+        font-size: 12px;
+    }
+
+
+    #arrivals .arrivalsitems .item span {
+        font-size: 16px;        
+    }
+
+    #offer .offeritem .item h5 {
+        font-size: 13px;
+    }
+    .product .productitems {
+        
+        /* flex-direction: column; */
+        column-gap: 30px;   
+        
+    }
+
+    #arrivals .arrivalsitems .item {
+        height: 465px;
+    }
+   
+
+    .return-cus  form input {
+    
+        width: 100%;
+      
+    }
+}
